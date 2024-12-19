@@ -1,0 +1,24 @@
++-----------------------+
+| Crop Yield Prediction |
++-----------------------+
+
+    1. Dataset
+        * https://www.kaggle.com/datasets/akshatgupta7/crop-yield-in-indian-states-dataset
+
+    2. Preprocessing
+        * Categorical To Numerical
+        * Scaling
+            Input  - StandardScaler
+            Output - MinMaxScaler
+    
+    3. Regression
+        * Multilayer Perceptron With Feature Interaction
+        * Optimizer - Adam
+        * Train:Test Split => 70:30
+
+    4. Evaluation
+        * Training Loss
+        * Testing Loss
+        * Mean Squared Error
+        * Mean Absolute Error
+        * Mean Absolute Percentage Error
